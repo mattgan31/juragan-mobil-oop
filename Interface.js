@@ -29,7 +29,6 @@ var InfoSummaryImpl = /** @class */ (function () {
     return InfoSummaryImpl;
 }());
 var infoSummary = new InfoSummaryImpl();
-// Menambahkan instance Vehicle
 var vehicle1 = new Encapsulation_1.Income('D 1001 UM', 'SUV', '2010', 350000000, 3500000, 4, new Date(2023, 10, 1), 500000, 150000, 0, 0);
 var vehicle2 = new Encapsulation_1.Income('D 1002 UM', 'SUV', '2010', 350000000, 3500000, 4, new Date(2023, 10, 0), 500000, 150000, 0, 0);
 var vehicle3 = new Encapsulation_1.Income('D 1003 UM', 'SUV', '2015', 350000000, 3500000, 5, new Date(2023, 12, 0), 500000, 150000, 0, 0);
