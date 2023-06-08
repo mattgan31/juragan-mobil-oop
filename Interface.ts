@@ -1,4 +1,4 @@
-import { Income, Vehicle } from "./Encapsulation";
+import { Income } from "./Encapsulation";
 
 interface InfoSummary {
     getTotalVehicle(): number;
@@ -50,7 +50,6 @@ class InfoSummaryImpl implements InfoSummary{
 
 const infoSummary = new InfoSummaryImpl();
 
-// Menambahkan instance Vehicle
 const vehicle1 = new Income('D 1001 UM', 'SUV', '2010', 350000000, 3500000, 4, new Date(2023,10,1), 500000, 150000, 0, 0);
 const vehicle2 = new Income('D 1002 UM', 'SUV', '2010', 350000000, 3500000, 4, new Date(2023,10,0), 500000, 150000, 0, 0);
 const vehicle3 = new Income('D 1003 UM', 'SUV', '2015', 350000000, 3500000, 5, new Date(2023,12,0), 500000, 150000, 0, 0);
